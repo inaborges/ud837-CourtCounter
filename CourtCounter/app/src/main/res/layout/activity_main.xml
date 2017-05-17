@@ -39,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Free Throw"
-        android:layout_margin="8dp"/>
+        android:layout_margin="8dp"
+        android:onClick="addTwoForTeamA"/>
 
 
 </LinearLayout>

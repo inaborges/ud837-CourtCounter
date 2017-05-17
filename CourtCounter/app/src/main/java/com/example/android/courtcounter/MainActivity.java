@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(3);
+        displayForTeamA(0);
     }
 
     /**
@@ -19,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addThreeForTeamA (View v){
         displayForTeamA(3);
+    }
+
+    /**
+     * Add 2 points for the Team A
+     */
+    public void addTwoForTeamA (View v){
+        displayForTeamA(2);
     }
 
     /**
